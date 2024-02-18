@@ -88,21 +88,22 @@
     footer .inner-ftr {
       flex-direction: column;
     }
+    .container .Main{
+      flex-direction: column;
+      padding: 0px;
+    }
   }
   
   @media (max-width: 450px) {
     .content2 h1 {
       font-size: 30px;
     }
-    .cont2 .Descrip {
-      padding: 0px 0px;
-    }
-    .cont2 .Descrip h1 {
-      font-size: 30px;
-      font-weight: bolder;
-    }
     .cont2 {
       flex-direction: column;
+    }
+    .container .Main{
+      flex-direction: column;
+      padding: 0px;
     }
     footer.inner-ftr {
       flex-direction: column;
@@ -115,12 +116,9 @@
     .image {
       display: none;
     }
-    .cont2 .Descrip {
-      padding: 0px 0px;
-    }
-    .cont2 .Descrip h1 {
-      font-size: 30px;
-      font-weight: bolder;
+    .container .Main{
+      flex-direction: column;
+      padding: 0px;
     }
     .cont2 {
       flex-direction: column;
@@ -131,17 +129,16 @@
   }
   
   @media (max-width: 600px) {
-    .cont2 .Descrip {
-      padding: 0px 0px;
-    }
-    .cont2 .Descrip h1 {
-      font-weight: bolder;
-    }
+    
     .cont2 {
       flex-direction: column;
     }
     li {
       margin: 0px 7px;
+    }
+    .container .Main{
+      flex-direction: column;
+      padding: 0px;
     }
     footer .inner-ftr {
       flex-direction: column;
@@ -149,25 +146,20 @@
   }
   
   @media (max-width: 700px) {
-    .cont2 .Descrip {
-      padding: 0px 0px;
-    }
-    .cont2 .Descrip h1 {
-      font-weight: bolder;
-    }
+    
     .cont2 {
       flex-direction: column;
     }
     li {
       margin: 0px 7px;
     }
+    .container .Main{
+      flex-direction: column;
+      padding: 0px;
+    }
     footer .inner-ftr {
       flex-direction: column;
     }
-  }
-  
-  .Descrip {
-    padding: 0px 50px;
   }
   .footer {
     color: white;
